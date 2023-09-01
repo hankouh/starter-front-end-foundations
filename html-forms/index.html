@@ -13,6 +13,44 @@
   </head>
 
   <body>
-    <main></main>
+    <main>
+      <h1>forms test code</h1>
+
+      <form>
+        <div>
+          <label for="name">Name:</label><br>
+          <input id="name" type="text" name="name"
+          autofocus="on"
+          maxlength="200"
+          required
+          />
+        </div>
+        <div>
+          <label for="email">email:</label><br>
+          <input
+            id="email"
+            type="text"
+            name="email"
+            maxlength="200"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="form-message">Your message:</label><br>
+          <textarea
+            id="form-message"
+            name="message"
+            required
+            maxlength="200"
+          ></textarea>
+        </div>
+        <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+      
+    </main>
   </body>
 </html>
